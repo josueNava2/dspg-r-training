@@ -1,0 +1,42 @@
+---
+title: "R practice"
+author: "JBN"
+date: '2022-06-02'
+output: html_document
+---
+
+## Intro to markdown
+
+Markdown allows you to do things like **bold**, _italic_, and more!
+
+Make a list with Asterisks like:
+- \* bold with double-asterisk
+- \* italics with underscores
+- \* code-type fond with baskticks
+
+you can also use hyphens instead of asterisks.
+
+For a numbered list: 
+1. 1\. bold..... 
+2. 1\. italic..... 
+3. 1\. code..... 
+
+Hyperlinks are line [Hyperlinkedtext](https://mylinks.org)
+
+
+Load gapminder data in along with plotting package.
+```{r load_data}
+# This will work
+gap <- gapminder
+
+```
+
+```{r make-plot}
+#Uses the plot function
+plot(lifeExp ~ year, data=gap)
+```
+
+
+```{r}
+temp <- c(1,2,3)
+```
